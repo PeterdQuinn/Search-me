@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  .wallets {
+    display: flex;
+  }
+  
+  .wallets button {
+    margin-right: 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .wallets button:hover {
+    background-color: #555;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  .search {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .search input {
+    flex-grow: 1;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .search button {
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .search button:hover {
+    background-color: #555;
+  }
+  
+  .results {
+    /* Results will be dynamically generated */
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+  }
+  
+  .favorites button {
+    margin-right: 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .favorites button:hover {
+    background-color: #555;
+  }
+  
+  .incognito label {
+    margin-right: 10px;
+  }
+  
+  .incognito input[type=checkbox] {
+    transform: scale(1.5);
+  }
+  
